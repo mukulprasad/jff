@@ -1,0 +1,10 @@
+jffmain: program to take in the ascii file name as parameter 
+         file is processed and data populated in individual co database.
+
+jffread: program to take in company name and process it for technicals.
+         file is re-written with new data
+
+jffsort: program takes in company name and sort the database in ascending
+         order by date
+
+ 
