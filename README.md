@@ -1,7 +1,9 @@
+#jff
+
 This project is for running analysis on the NSE data generated everyday and
 is available for download through exchange website.
 
-Pre-requisites:
+##Pre-requisites:
   1. Subscribe to the NSE RSS feed
     http://feeds.feedburner.com/nseindia/CMDailyReport
     this feed will send daily update of the marked.
@@ -11,19 +13,19 @@ Pre-requisites:
 
   3.
 
-Environment and Compiling:
+##Environment and Compiling:
   1. gcc 5.4.0 on Ubuntu 16.04 is where this has been tested for compilation.
   2. script mk is provided with compile commands. provide execute permission to
      this file and execute
 
-Running:
+##Running:
   1. compilation shall generate the following executable files:
     a. jff
     b. jfftech
     c. jffsort
     d. jffreport
 
-jff:
+###jff:
   this should be executed with directory as parameter, which contains the csv
   files which were downloaded from nse site (pre-requisites - 2.)
 
@@ -33,19 +35,19 @@ jff:
   the dat folder shall contain files for individual companies with daily
   data.
 
-jffsort:
+###jffsort:
   this should be executed with input parameter containing the path+directory
   name of companies data
 
   upon execution the data in individual companies file shall be sorted earliest
   to latest.
 
-jfftech:
+###jfftech:
   this again takes dat folder as input parameter. this program runs technical
   analysis on individual companies and populates them within the datastructure
   of the file.
 
-jffreport:
+###jffreport:
   takes dat folder as input parameter, and generates the report. output is
   again put in files: bulk.op and today.op
 
