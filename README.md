@@ -11,8 +11,6 @@ is available for download through exchange website.
   2. From feed download Bhavcopy file which is named as "cm03AUG2018bhav.csv.zip"
     extract the csv file and place them in a folder.
 
-  3.
-
 ## Environment and Compiling:
   1. gcc 5.4.0 on Ubuntu 16.04 is where this has been tested for compilation.
   2. script mk is provided with compile commands. provide execute permission to
@@ -25,7 +23,7 @@ is available for download through exchange website.
     c. jffsort
     d. jffreport
 
-###jff:
+### jff:
   this should be executed with directory as parameter, which contains the csv
   files which were downloaded from nse site (pre-requisites - 2.)
 
@@ -35,19 +33,19 @@ is available for download through exchange website.
   the dat folder shall contain files for individual companies with daily
   data.
 
-###jffsort:
+### jffsort:
   this should be executed with input parameter containing the path+directory
   name of companies data
 
   upon execution the data in individual companies file shall be sorted earliest
   to latest.
 
-###jfftech:
+### jfftech:
   this again takes dat folder as input parameter. this program runs technical
   analysis on individual companies and populates them within the datastructure
   of the file.
 
-###jffreport:
+### jffreport:
   takes dat folder as input parameter, and generates the report. output is
   again put in files: bulk.op and today.op
 
