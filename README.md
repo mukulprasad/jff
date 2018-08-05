@@ -1,9 +1,9 @@
-#jff
+# jff
 
 This project is for running analysis on the NSE data generated everyday and
 is available for download through exchange website.
 
-##Pre-requisites:
+## Pre-requisites:
   1. Subscribe to the NSE RSS feed
     http://feeds.feedburner.com/nseindia/CMDailyReport
     this feed will send daily update of the marked.
@@ -13,12 +13,12 @@ is available for download through exchange website.
 
   3.
 
-##Environment and Compiling:
+## Environment and Compiling:
   1. gcc 5.4.0 on Ubuntu 16.04 is where this has been tested for compilation.
   2. script mk is provided with compile commands. provide execute permission to
      this file and execute
 
-##Running:
+## Running:
   1. compilation shall generate the following executable files:
     a. jff
     b. jfftech
